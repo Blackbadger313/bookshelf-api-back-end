@@ -1,0 +1,22 @@
+{
+  "name": "bookshelf-api-back-end",
+  "version": "1.0.0",
+  "description": "submission",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon run ./src/server.js",
+    "lint": "eslint ./"
+  },
+  "author": "farid",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
